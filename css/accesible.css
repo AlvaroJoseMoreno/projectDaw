@@ -1,0 +1,56 @@
+@import 'index.css';
+@import 'formulario.css';
+@import 'bigfontindex.css';
+@import 'altocontraste.css';
+
+p, a{
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+/*form>p, form>p>strong>label{
+	color: var(--color5);
+}*/
+label,input,li{
+	letter-spacing: 2px;
+	font-size: 22px;
+}
+#busenv{
+	margin-right: auto;
+	margin-left: auto;
+	width: 130px;
+	height: 35px;
+}
+h1{
+	font-size: 45px;
+}
+h2,h3>a{
+	font-size: 38px;
+}
+input[type="text"], select, input[type="password"], input[type="search"], input[type="number"], input[type="email"], input[type="tel"], input[type="date"], textarea {
+  	font-size: 22px;
+}
+.formu, .button{
+	font-size: 20px;
+}
+.form{
+	width: 95%;
+}
+.user{
+	font-size: 25px;
+}
+textarea,datalist,option{
+	font-size: 22px;
+}
+tr,td{
+	font-size: 22px;
+	width: 100px;
+    word-wrap: break-word;
+}
+#formsol>form>.text>input, #registro>section>form>p>input, #busqueda>section>form>p>input {
+    margin-top: 15px;
+}
+@media all and (min-width: 650px){
+	.form{
+		width: 600px;
+	}
+}

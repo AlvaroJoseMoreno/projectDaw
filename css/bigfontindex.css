@@ -1,0 +1,71 @@
+@import 'index.css';
+@import 'formulario.css';
+
+p, a, li{
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+label,input{
+	letter-spacing: 2px;
+	font-size: 22px;
+}
+h1{
+	font-size: 45px;
+}
+h2,h3>a{
+	font-size: 38px;
+}
+input[type="text"], select, input[type="password"], input[type="search"], input[type="number"], input[type="email"], input[type="tel"], input[type="date"], textarea {
+  	font-size: 22px;
+}
+.formu, .button{
+	font-size: 20px;
+}
+.formu{
+	width: 170px;
+}
+#registro>section>form>#values>.formu, #anyadir>section>form>#values>.formu, #enviar, #busenv, .form>.formu{
+	width: 170px;
+	height: 40px;
+}
+.user{
+	font-size: 25px;
+}
+textarea,datalist,option{
+	font-size: 22px;
+}
+tr,td{
+	font-size: 22px;
+	width: 100px;
+    word-wrap: break-word;
+}
+#formsol>form>.text>input, #registro>section>form>p>input, #busqueda>section>form>p>input {
+    margin-top: 15px;
+}
+.form {
+    width: 95%;
+}
+@media all and (min-width: 650px){
+	.form>input {
+    	margin-left: 140px;
+	}
+	.form{
+		width: 600px;
+	}
+	#busqueda>section>form>.text>#fa{
+		margin-left: 12px;
+	}
+}
+@media all and (min-width: 800px){
+	#registro>section>form>.text>label {
+	    float: left;
+	    display: block;
+	    width: 160px;
+	}
+	#fotperf,#busfot{
+		margin-left: 160px;
+	}
+	#registro>section>form>.text>input[type="date"], p>#pais{
+		margin-top: 15px;
+	}
+}

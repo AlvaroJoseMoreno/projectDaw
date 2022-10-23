@@ -1,0 +1,131 @@
+@import 'index.css';
+@import 'formulario.css';
+
+:root{
+	--color5: #fff;  /*color blanco*/
+	--color6: #000;  /*color negro*/
+	--color7: #9F9C9C; /*gris muy oscuro */
+	--color9: #F0EBEB; /*gris oscuro*/
+}
+html{
+	margin: 2cm;
+}
+.articulos:hover {
+    border: 2px solid #000;
+}
+.articulos>img:hover{
+	transition: transform .5s;
+	transform: scale(1);
+}
+a, .icon-search{
+	text-decoration: underline;
+}
+a:after {
+	content:" <" attr(href) "> ";
+}
+a:hover{
+	color: var(--color5);
+	cursor: context-menu;
+}
+p, label{
+	font-size: 12pt;
+}
+header,footer, #busqueda>section>form{
+	background-color: var(--color7);
+	background: var(--color7);
+	box-shadow: var(--color9);
+}
+#busqueda>section>form, body>#formsol{
+	border: 2px solid #000;
+} 
+body, #registro>section, #busqueda>section, body>section, #user>section, #detalle>article{
+	background-color: var(--color9);
+}
+.form, .button{
+	display: none;
+}
+body>.solicitar, .solicitar>#table, #tabcost, #tabcost>table>tbody{
+	background: var(--color7);
+	background-color: var(--color7);
+	box-shadow: var(--color9);
+	border-color: var(--color6);
+}
+#tablaprec{
+	background-color: var(--color7);
+}
+body>#formsol{
+	margin-right: auto;
+	margin-left: auto;
+}
+#user>section>a:after{
+	font-size: 30pt;
+	color: var(--color7);
+	margin-top: 75px;
+    margin-left: -150px;
+}
+#detalle>header>a:after, #indexlogin>header>a:after, #solalb>header>a:after, #respsol>header>a:after{
+	font-size: 12pt;
+	display: flex;
+	flex-direction: column;
+	margin-top: 75px;
+    margin-left: -85px;
+}
+header>.icon-user:hover, .icon-search:hover{
+	color: var(--color5);
+}
+input[type="search"]:hover{
+	width: 300px;
+	cursor: context-menu;
+}
+input[type="search"]{
+	border-color: var(--color7);
+}
+input:hover{
+	cursor: context-menu;
+}
+main{
+	flex-direction: column;
+}
+#mainart>.articulos,body>main>.articulos, #detalle>article{
+	width: 95%;
+	border: 2px solid var(--color5);
+	background-color: var(--color9);
+	break-inside: avoid;
+	border: 2px solid #000;
+}
+#mainart>.articulos>img, body>main>.articulos>img{
+	height: 300px;
+}
+#registro>section>form{
+	background-color: var(--color9);
+	background: var(--color9);
+	box-shadow: var(--color7);
+	border: 2px solid #000;
+}
+#respsol>section, #user>section, #accesible>section{
+	break-inside: avoid;
+	border: 2px solid #000;
+}
+.solicitar>#table{
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+.solicitar>#table, #tar,#tabcost{
+	break-inside: avoid;
+}
+table, tr, td, .solicitar>#table{
+	border: 2px solid #000;
+}
+#user>section>.icon-user:hover{
+	color: #CFC6C6;
+}
+#user>section>form>input{
+	display: none;
+}
+#user>section>h3>a, #user>section>a,#user>section>h3>a:hover, #user>section>a:hover{
+	color: #CFC6C6;
+}
+#detalle>article>p>a{
+	color: var(--color7);
+}

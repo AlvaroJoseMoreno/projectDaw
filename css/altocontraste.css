@@ -1,0 +1,127 @@
+@import 'index.css';
+@import 'formulario.css';
+
+:root{
+	--color5: #E7D7EA;  /*color lila claro*/
+	--color6: #CBA9D1;  /*color lila oscuro*/
+	--color7: #4C2424;  /*Marron oscuro */
+	--color8: #612E2E;  /*Marron medio oscuro*/
+	--color9: #954646;  /*Marron menos oscuro*/
+}
+/* https://whocanuse.com/?b=4c2424&c=e7d7ea&f=21&s= */
+a{
+	color: var(--color9);
+	font-style: italic;
+}
+a:hover{
+	color: var(--color7);
+}
+p, label, #capafondo>article>p{
+	font-size: 14pt;
+	color: var(--color7);
+}
+#datosusu>label{
+	color: var(--color5);
+}
+h2,h3,h4{
+	color: var(--color9);
+}
+header,footer{
+	background-color: var(--color7);
+	background: var(--color7);
+	box-shadow: var(--color9);
+}
+footer>label, form>p, form>p>strong>label, #configurar>.form>p>label, .form>label,#busqueda>section>form>p>label, #registro>section>form>p>label,#nuevoalbum>section>form>p>label{
+	color: var(--color5);
+}
+.form>h2{
+	color: var(--color6);
+}
+.icon-search, header>.icon-user{
+	color: var(--color6);
+}
+body, #anyadir>section, #registro>section, #busqueda>section, body>section, #user>section, #detalle>article, #capafondo>article{
+	background-color: var(--color5);
+}
+.form, .formu, .button, #anyadir>section>form, #user>section>form>input, #busqueda>section>form, #capafondo>article>h2, #registro>section>form, .form>.formu, #nuevoalbum>section{
+	background-color: var(--color7);
+	background: var(--color7);
+	box-shadow: var(--color9);
+	color: var(--color5);
+	border: 2px solid var(--color6);
+}
+.button:hover, .formu:hover, #user>section>form>input:hover{
+	background:linear-gradient(to bottom, #4C2424 5%, #612E2E 100%);
+    background-color:var(--color7);
+}
+body>.solicitar, .solicitar>#table, .misalbumes>table, #tabcost, #tabcost>#tablaprec{
+	background: var(--color7);
+	background-color: var(--color7);
+	box-shadow: var(--color9);
+	color: var(--color5)
+}
+#misfotos>.misalbumes>h3{
+	color: var(--color8);
+}
+.misalbumes>table>tbody>tr>td>a{
+	color: var(--color6);
+}
+.misalbumes>table>tbody>tr>td>a:hover{
+	color: var(--color5);
+}
+body>main>.articulos:hover{
+	border: 4px solid var(--color7);
+}
+#detalle>article>p>a{
+	color: var(--color9);
+}
+footer>label>a{
+	color: var(--color5);
+}
+header>.icon-user:hover, .icon-search:hover{
+	color: var(--color5);
+}
+
+input[type="search"]{
+	border-color: var(--color7);
+}
+input[type="text"],select, input[type="password"], input[type="search"], input[type="number"], input[type="email"], input[type="tel"], input[type="date"], textarea{
+	background-color: var(--color7);
+	color: var(--color5);
+	border: 2px solid var(--color5);
+	font-family: sans-serif;
+	font-size: 12pt;
+}
+::placeholder{
+  color: var(--color5);
+}
+
+#mainart>.articulos,body>main>.articulos, #detalle>article, #capafondo>article, #resultadosearch>#resultado{
+	border: 4px solid var(--color7);
+	background-color: var(--color5);
+}
+.solicitar>p, .solicitar>p, .solicitar>form>p>label, #anyadir>section>form>p>label{
+	color: var(--color5);
+}
+.solicitar>h2, #table>h3, #tabcost>h2{
+	color: var(--color6);
+}
+#user>section>.icon-user:hover{
+	color: var(--color7);
+}
+#user>section>h3>a, #user>section>a,#user>section>h3>a:hover, #user>section>a:hover{
+	color: var(--color9);
+	font-style: normal;
+}
+tr, td, table{
+	border: 2px solid var(--color5);
+}
+#user>header>h1{
+	color: var(--color6);
+}
+#user>section, #respsol>section, #accesible>section{
+	border: 4px solid var(--color7);
+}
+#nuevoalbum>section>h2{
+	color: var(--color6);
+}

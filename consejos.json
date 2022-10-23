@@ -1,0 +1,33 @@
+
+[
+	{
+		"id": 1,
+		"Categoría":"Material",
+		"Dificultad":"Fácil",
+		"consejo":"Los ángulos tienen un papel importante en cómo sale la imagen y qué efecto tiene. Los ángulos altos (sacados desde encima del nivel de los ojos del objetivo) hacen al objetivo débil e insignificante. Los ángulos bajos, al contrario, lo hacen poderoso y potente."
+	},
+	{
+		"id": 2,
+		"Categoría":"Ajustes",
+		"Dificultad":"Media",
+		"consejo":"Es un error que cometen muchos fotógrafos amateurs. Cuando el enfoque no está bien puesto, el objetivo puede salir borroso mientras que el entorno sale bien."
+	},
+	{
+		"id": 3,
+		"Categoría":"Configuración",
+		"Dificultad":"Media",
+		"consejo":"Si tu cámara te deja sacar fotos en modo manual, utilízalo. Este modo te da mayor control sobre muchos puntos importantes como la velocidad del disparo, apertura, balance de blancos, etc… El resultado será mucho mejor."
+	},
+	{
+		"id": 4,
+		"Categoría":"Ajustes",
+		"Dificultad":"Difícil",
+		"consejo":"Experimenta con los colores para obtener imágenes creativas. ¿Te sale un cocodrilo azul? Porque no, tu imaginación es el único límite."
+	},
+	{
+		"id": 5,
+		"Categoría":"Material",
+		"Dificultad":"Media",
+		"consejo":"Cambiar las lentes de tu cámara pueden mejorar drásticamente tus fotos. Esta opción es viable no solo para las cámaras SLRs, sino también para los móviles. Las lentes más populares son el ojo de pez, macro etc…"
+	}
+]
